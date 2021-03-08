@@ -61,7 +61,6 @@ public class UserController implements PageController {
             return "success.jsp";
         } catch (RuntimeException e) {
             logger.log(Level.SEVERE,e.getMessage());
-            response.getWriter().println("参数校验失败");
             return "error.jsp";
         }
     }
