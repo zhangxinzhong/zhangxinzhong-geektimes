@@ -1,0 +1,2 @@
+org.geektimes.configuration.microprofile.convert.StringConverter
+org.geektimes.configuration.microprofile.convert.IntegerConverter
